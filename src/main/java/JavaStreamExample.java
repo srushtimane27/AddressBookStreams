@@ -46,10 +46,7 @@ public class JavaStreamExample {
                 .filter(person -> person.city == "Satara")
                 .forEach(person -> System.out.println(person.phonenumber));
 
-        //UC10:Get Number by city or state
-        personsList.stream()
-                .filter(person -> person.state == "Gujrat")
-                .forEach(person -> System.out.println(person.phonenumber));
+        
 
 
     }
